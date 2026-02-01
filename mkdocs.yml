@@ -1,4 +1,4 @@
-site_name: Module Template
+site_name: Volume Organisation
 site_url: https://example.com
 theme:
   name: material
@@ -22,7 +22,7 @@ theme:
         name: Switch to light mode
       # Light Mode
     - scheme: default
-      primary: blue
+      primary: purple
       accent: red
       toggle:
         icon: material/weather-sunny
