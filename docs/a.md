@@ -1,4 +1,4 @@
-# Master Boot Record
+# MBR
 
 My first hard disk was a staggeringly big 32 megabytes, sometime around 1988, on an Amstrad 1512. At that stage, I could hack floppy discs and took great pleasure going into programmes with a hex editor, completely changing how they looked. But this first hard drive was too big to format like a floppy disk and for the first time, I has to figure out partitioning a disk.
 
