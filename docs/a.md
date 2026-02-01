@@ -5,14 +5,14 @@ My first hard disk was a staggeringly big 32 megabytes, sometime around 1988, on
 The partitioning scheme introduced in 1983 was called _Master Boot Record_ or MBR. This allowed for up to four separate partitions, each independent and with its own file system. In MBR the first sector of the hard drive is no longer part of a file system, instead it contains meta-data describing the partition layout of the entire physical drive.
 
 <figure>
-<img src = "https://jor-donegal.github.io/VolumeOrganization26/images/fig1.png">
+<img src = "https://jor-donegal.github.io/VolumeOrganisation26/images/fig1.png">
 <figcaption>Fig 1. MBR, first sector.</figcaption>
 </figure>
 
 The first 445 bytes of sector 1 contains _bootstrap_ code. The term bootstrap means for a system to start itself up or "pull itself up by its own bootstraps". For the system to work, one of the partitions must be _bootable_, it must be able to load an operating system (OS). The _boot loader_ determines which partition is to be booted from and then chain loads the volume boot record from that partition’s sector 1. If the boot partition was FAT (explained in later notes!), the first three bytes are a jump command and the system would proceed to boot from this partition.
 
 <figure>
-<img src = "https://jor-donegal.github.io/VolumeOrganization26/images/fig2.png">
+<img src = "https://jor-donegal.github.io/VolumeOrganisation26/images/fig2.png">
 <figcaption>Fig 2. MBR, partitions.</figcaption>
 </figure>
 
